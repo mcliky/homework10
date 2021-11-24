@@ -20,6 +20,9 @@ public class Main {
         if (array.length == 0) {
             return;
         }
+        if (low >= high){
+                return;
+        }
         int mid = low + (high - low) / 2;
         int reliance = array[mid];
         int i=low;
